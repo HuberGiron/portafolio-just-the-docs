@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Hardware y conexiones
-nav_order: 2
+parent: "Ejemplo: Manual CNC (demo)"
+nav_order: 1
 ---
 
 # Hardware y conexiones

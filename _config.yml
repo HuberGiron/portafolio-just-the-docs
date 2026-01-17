@@ -1,15 +1,23 @@
-title: Portafolio
-description: Portafolio-just-the-docs
+title: Portafolio Web
+description: Repositorio base para enseñar y crear documentación en GitHub Pages con Just the Docs
 
-# ✅ Modo recomendado en GitHub Pages:
+# Local: usa el tema instalado por Gemfile
+theme: just-the-docs
+
+# GitHub Pages: modo recomendado
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
-lang: es
+# IMPORTANTES:
+# - Para GitHub Pages (Project Page), edita:
+#     url: "https://TU_USUARIO.github.io"
+#     baseurl: "/NOMBRE_DEL_REPO"
 url: "https://hubergiron.github.io/"
 baseurl: "/portafolio-just-the-docs"
 
+#Configuracion Formato, Header y Footer
 just_the_docs:
   # incluir CSS adicional
   custom_css:
@@ -18,17 +26,16 @@ just_the_docs:
 
 search_enabled: true
 search:
-  heading_level: 1
+  # Cambia el numero dependiendo el numero de subniveles de páginas, poner 1 por default
+  heading_level: 2
 
+# Ejemplo de enlace auxiliar (aparece arriba a la derecha)
 aux_links:
   "Repositorio en GitHub":
     - "https://github.com/HuberGiron/portafolio-just-the-docs"
 
 # Enlaces
 permalink: pretty
-
-plugins:
-  - jekyll-seo-tag
 
 exclude:
   - "Gemfile"

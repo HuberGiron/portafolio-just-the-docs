@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Primer archivo G-code (.nc)
-nav_order: 5
+parent: "Ejemplo: Manual CNC (demo)"
+nav_order: 4
 ---
 
 # Crear tu primer archivo G-code (.nc)

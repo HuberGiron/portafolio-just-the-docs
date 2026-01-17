@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Flujo de trabajo con FabModules
-nav_order: 6
+parent: "Ejemplo: Manual CNC (demo)"
+nav_order: 5
 ---
 
 # Flujo de trabajo con FabModules

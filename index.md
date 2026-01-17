@@ -4,25 +4,36 @@ title: Inicio
 nav_order: 1
 ---
 
-# CNC Plotter – Manual de Uso
+# Plantilla de documentación con Just the Docs
 
-Este sitio documenta una **CNC de 3 ejes** basada en:
+Este repositorio está diseñado para que:
 
-- Arduino UNO + CNC Shield + drivers A4988
-- Firmware **GRBL 1.1**
-- Sender **OpenBuilds CONTROL**
-- Flujo de trabajo desde **PNG / FabModules → G-code → OpenBuilds → CNC**
+- **Tú (docente)** compartas una plantilla lista para usar.
+- **Tus alumnos** clonen el repositorio, lo modifiquen y construyan su propia documentación.
 
-## Contenidos
+## Ruta sugerida
 
-1. [Hardware y conexiones](hardware.md)  
-2. [Software (GRBL + OpenBuilds)](software.md)  
-3. [Calibración](calibracion.md)
-4. [Primer archivo G-code (.nc)](primer-gcode.md) 
-5. [Flujo de trabajo con FabModules](flujo-fabmodules.md) 
+1. **Crear y publicar** el sitio en GitHub Pages.
+2. Aprender la **estructura** típica de un repo de documentación.
+3. Dominar **Markdown** (texto, listas, tablas, código).
+4. Configurar la **navegación** (sidebar, secciones, orden).
+5. Agregar **imágenes, videos** y otros recursos.
+6. Ajustar **estilos** (logo, colores, footer).
 
-## Requisitos básicos
-- Acceso a:
-  - Computadora con Windows / macOS / Linux.
-  - Conexión USB al Arduino.
-  - Fuente de alimentación para motores (12–24 V).
+Comienza aquí:
+- [1. Publicar en GitHub Pages](01-publicar-en-github-pages.md)
+- [2. Estructura del repositorio](02-estructura-del-repo.md)
+- [3. Escribir en Markdown](03-markdown.md)
+- [4. Navegación y menús](04-navegacion.md)
+- [5. Imágenes y video](05-media.md)
+- [6. Personalización visual](06-estilos.md)
+- [7. Flujo de trabajo con Git](07-flujo-git.md)
+
+---
+
+## Ejemplo incluido
+
+Este repo también incluye un **mini-manual de CNC** como ejemplo de documentación “real” (con imágenes, bloques de código, y una estructura por secciones).
+
+- [Ejemplo: Manual CNC (demo)](ejemplo-cnc.md)
+

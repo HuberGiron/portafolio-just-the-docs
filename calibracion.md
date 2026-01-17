@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Calibración
-nav_order: 4
+parent: "Ejemplo: Manual CNC (demo)"
+nav_order: 3
 ---
 
 # Calibración de la CNC

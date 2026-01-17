@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Software (GRBL + OpenBuilds)
-nav_order: 3
+parent: "Ejemplo: Manual CNC (demo)"
+nav_order: 2
 ---
 
 # Software: GRBL y OpenBuilds CONTROL
