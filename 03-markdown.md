@@ -29,6 +29,8 @@ Ejemplo (cómo se ve):
 - En cada página usa **un solo H1** (el título de la página).
 - Dentro del contenido usa **H2 para secciones** y **H3 para subsecciones**.
 - Mantén frases cortas y listas para pasos o requerimientos.
+
+
 ---
 
 ## 2) Negritas, cursivas y texto en línea
