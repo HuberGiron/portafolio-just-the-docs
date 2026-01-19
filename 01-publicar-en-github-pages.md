@@ -61,6 +61,8 @@ Vas a partir del repo plantilla (este repositorio).
    - **Add file → Upload files**
    - Arrastra los archivos (descomprimidos) a la ventana
    - Clic en **Commit changes**
+
+
 ![Figura 3 — Download ZIP + Upload files](assets/img/01-publicar/download.png)
 **Figura 3:** Descargar ZIP.
 
