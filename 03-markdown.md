@@ -8,12 +8,9 @@ nav_order: 4
 
 Markdown es el formato principal para escribir contenido en tu sitio (Just the Docs). La idea es que puedas crear páginas claras y consistentes, sin depender de Word ni formatos complicados.
 
-**Figura 14 (pendiente):** Ejemplo de una página con títulos, listas, callouts e imagen.
-<!-- ![Figura 14 — Ejemplo de pagina](assets/img/fig14-ejemplo-markdown.png) -->
-
 ---
 
-## 1) Regla de oro (para el curso)
+## 1) Regla de oro
 
 - En cada página usa **un solo H1** (el título de la página).
 - Dentro del contenido usa **H2 para secciones** y **H3 para subsecciones**.
@@ -43,6 +40,7 @@ Recomendación: usa **H2** como secciones principales dentro de páginas; evita 
 
 Ejemplos:
 - **Entrega final** el viernes.
+- *Entrega final* el viernes.
 - Usa `git status` para ver cambios.
 
 ---
@@ -129,21 +127,22 @@ Buenas prácticas:
 - Evita espacios y acentos en nombres de archivo.
 - Respeta mayúsculas/minúsculas (en web sí importa).
 
-**Figura 15 (pendiente):** Ejemplo de referencia a imagen desde Markdown.
-<!-- ![Figura 15 — Imagen en Markdown](assets/img/fig15-imagen-markdown.png) -->
-
 ---
 
 ## 7) Video (opciones recomendadas)
 
-### Opción A: Enlace (simple y robusto)
+### Opción A: Enlace 
 Ideal para no romper el diseño.
 
 ```md
 [Ver video de demostración (YouTube)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
 ```
 
-### Opción B: Embed (si el curso lo requiere)
+Ejemplo:
+[Ver video de demostración (YouTube)](https://www.youtube.com/watch?v=6om9bh6pz_s)
+
+
+### Opción B: Embed 
 Puedes incrustar un video con HTML. Úsalo con moderación.
 
 ```html
@@ -158,8 +157,41 @@ Puedes incrustar un video con HTML. Úsalo con moderación.
 </iframe>
 ```
 
-**Figura 16 (pendiente):** Video incrustado en una página.
-<!-- ![Figura 16 — Video embed](assets/img/fig16-video-embed.png) -->
+Ejemplo:
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/watch?v=6om9bh6pz_s"
+  title="Video"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+### Opción C: Video MP4 (archivo local en tu repositorio)
+
+1) Guarda tu video en una carpeta del repo, por ejemplo:
+- `assets/videos/` (recomendado para mantener orden), o
+- `assets/img/` (si ya estás usando esa ruta en tu curso)
+
+2) Inserta el video con HTML:
+
+```html
+<video controls width="720">
+  <source src="{{ '/assets/videos/demo.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+```
+Ejemplo:
+<video controls width="720">
+  <source src="{{ '/assets/videos/demo.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+
+Recomendaciones:
+- Mantén los MP4 **ligeros** (clips cortos). Archivos muy grandes hacen el repo pesado y lento de descargar.
+- Usa nombres simples: `demo-robot.mp4`, `calibracion-01.mp4`.
+
 
 ---
 
