@@ -63,8 +63,10 @@ Vas a partir del repo plantilla (este repositorio).
 **Figura 3:** Descargar ZIP.
 
 ![Figura 4 — New repo](assets/img/01-publicar/nuevo.png)
+![Figura — New ](assets/img/01-publicar/new.png)
+![Figura  — exixting](assets/img/01-publicar/upload.png)
+![Figura  — upload](assets/img/01-publicar/files.png)
 **Figura 4:** Crear repositorio nuevo.
-
 
 ---
 
@@ -147,6 +149,7 @@ GitHub te mostrará tu URL con este formato:
 
 - `https://TU_USUARIO.github.io/TU_REPO/`
 
+![Figura  — Pages ](assets/img/01-publicar/pages.png)
 ![Figura 8 — Pages settings](assets/img/01-publicar/website.png)
 **Figura 8:** Settings → Pages (branch y folder).
 
