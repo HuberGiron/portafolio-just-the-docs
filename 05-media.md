@@ -59,7 +59,7 @@ Guárdalos en `assets/files/` (crea la carpeta) y enlázalos así:
 ```
 
 
---
+---
 
 ## Siguiente sección
 [Estructura del repositorio](02-estructura-del-repo.md)

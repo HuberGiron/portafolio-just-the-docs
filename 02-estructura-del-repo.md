@@ -25,7 +25,7 @@ Una estructura base (la de este repo) suele verse así:
 │  └─ img/
 │     ├─ logotipo.png
 │     └─ ...
-└─ Gemfile (opcional, para servir local)
+└─ 
 ```
 
 ## Qué hace cada cosa
@@ -63,7 +63,7 @@ nav_order: 10
 - `nav_order` controla el orden.
 - `layout: default` funciona bien para la mayoría de páginas.
 
---
+---
 
 ## Siguiente sección
 [Estructura del repositorio](02-estructura-del-repo.md)

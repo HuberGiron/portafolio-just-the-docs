@@ -181,7 +181,7 @@ GitHub te mostrará tu URL con este formato:
 - [ ] En **Actions** la ejecución está en verde.
 - [ ] Tu URL abre y el menú lateral aparece.
 
---
+---
 
 ## Siguiente sección
 [Estructura del repositorio](02-estructura-del-repo.md)

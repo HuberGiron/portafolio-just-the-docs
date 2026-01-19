@@ -39,7 +39,7 @@ Si ya tienes un `custom.css` con colores/logotipo institucional, solo reemplaza:
 Mantén los nombres para no tener que cambiar rutas.
 
 
---
+---
 
 ## Siguiente sección
 [Estructura del repositorio](02-estructura-del-repo.md)

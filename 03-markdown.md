@@ -74,7 +74,7 @@ Nota: En algunos repos, estas clases ya vienen habilitadas por el tema.
 {: .warning }
 Advertencia: si tu instancia no muestra callouts, revisa que estés usando el tema Just the Docs.
 
---
+---
 
 ## Siguiente sección
 [Estructura del repositorio](02-estructura-del-repo.md)
