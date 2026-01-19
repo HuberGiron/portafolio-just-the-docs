@@ -32,6 +32,8 @@ En este curso vamos a publicar tu documentación como un **sitio web** usando:
 
 Vas a partir del repo plantilla (este repositorio).
 
+[Github de este repositorio](https://github.com/HuberGiron/portafolio-just-the-docs)
+
 ### Ruta A (recomendada): Fork del repositorio
 
 1. Abre el repositorio a copiar en GitHub.
