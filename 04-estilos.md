@@ -23,7 +23,7 @@ En este repositorio, el estilo y algunos elementos visuales se controlan con **t
 3) **Footer** (tu footer “propio”, con licencia y “Last modified”):  
    - `_includes/footer_custom.html`
 
-Estructura típica:
+Estructura:
 
 ```text
 .
@@ -183,7 +183,7 @@ Tu footer actual:
 - Enlaza a la página “Uso de IA”.
 - Muestra “Last modified” con fecha/hora.
 
-Ejemplo (simplificado):
+Ejemplo:
 
 ```html
 <footer class="custom-footer">
@@ -201,7 +201,7 @@ Ejemplo (simplificado):
 </footer>
 ```
 
-### Qué cambiar aquí (típicamente)
+### Qué cambiar aquí
 - El texto “Copyright © 2026 …”.
 - Tu nombre y enlace.
 - La licencia (si aplica).
@@ -211,10 +211,10 @@ Ejemplo (simplificado):
 
 ## 6) Checklist rápido cuando “no se ve” el cambio
 
-1) **Guardaste el archivo** (en Codespaces o en tu editor).
-2) Hiciste **commit** y **push** al repositorio.
-3) Esperaste a que **GitHub Actions** termine (verde).
-4) Abriste tu sitio y forzaste recarga:
+# 1) **Guardaste el archivo** (en Codespaces o en tu editor).
+# 2) Hiciste **commit** y **push** al repositorio.
+# 3) Esperaste a que **GitHub Actions** termine (verde).
+# 4) Abriste tu sitio y forzaste recarga:
    - Windows: `Ctrl + F5` o `Ctrl + Shift + R`
    - macOS: `Cmd + Shift + R`
 
