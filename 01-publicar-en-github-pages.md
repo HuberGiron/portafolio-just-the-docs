@@ -121,7 +121,7 @@ En Codespaces:
 4. Clic en **Commit**.
 5. Clic en **Sync Changes** (o **Push**).
 
-![Figura 7 — Commit y Push](assets/img/01-publicar/codespace.png))
+![Figura 7 — Commit y Push](assets/img/01-publicar/commit.png)
 **Figura 7:** Source Control → Commit → Sync Changes.
 
 ### ¿Qué pasó en realidad?
