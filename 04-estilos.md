@@ -70,9 +70,9 @@ Más abajo tienes una guía de “qué cambiar” sin perderte.
 
 Este archivo se inserta en el `<head>` del sitio y hace 3 cosas:
 
-1)Carga `custom.css`.
-2)Define el favicon.
-3)Inserta el logo **antes del texto** del título del sitio (en la barra lateral / encabezado, según el tema).
+- Carga `custom.css`.
+- Define el favicon.
+- Inserta el logo **antes del texto** del título del sitio (en la barra lateral / encabezado, según el tema).
 
 Código relevante:
 
