@@ -27,11 +27,6 @@ En este curso trabajaremos **solo con GitHub Pages + Codespaces**. La meta es qu
 ├─ 04-navegacion.md
 ├─ 05-media.md
 ├─ 06-estilos.md
-├─ 07-flujo-git.md
-├─ 08-checklist.md
-├─ ejemplo-cnc.md
-├─ hardware.md
-├─ calibracion.md
 ├─ _includes/
 │  ├─ head_custom.html
 │  └─ footer_custom.html
@@ -44,9 +39,6 @@ En este curso trabajaremos **solo con GitHub Pages + Codespaces**. La meta es qu
    └─ files/
       └─ (tus PDFs)
 ```
-
-**Figura 10 (pendiente):** Árbol de archivos del repo en GitHub.  
-<!-- ![Figura 10 — Arbol del repo](assets/img/fig10-arbol-repo.png) -->
 
 ### ¿Qué hace cada cosa? (en una frase)
 
@@ -76,7 +68,7 @@ Cuando editas en Codespaces y haces **Commit** + **Push**:
 - **Settings → Pages** (ver la URL y el estado de publicación).
 
 **Figura 11 (pendiente):** Ejecución en Actions (verde).  
-<!-- ![Figura 11 — Actions success](assets/img/fig11-actions-success.png) -->
+![Figura 11 — Actions success](assets/img/01-publicar/actions.png)
 
 ---
 
@@ -93,10 +85,6 @@ Cuando editas en Codespaces y haces **Commit** + **Push**:
 ### Rara vez editas (solo si el profesor lo pide)
 
 - `_includes/head_custom.html` y `_includes/footer_custom.html` (para personalización visual).
-
-### Normalmente NO necesitas tocar
-
-- `Gemfile` / `Gemfile.lock` (sirven para correr local; en este curso priorizamos GitHub Pages).
 
 ---
 
