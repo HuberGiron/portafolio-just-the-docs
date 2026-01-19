@@ -10,15 +10,7 @@ Markdown es el formato principal para escribir contenido en tu sitio (Just the D
 
 ---
 
-## 1) Regla de oro
-
-- En cada página usa **un solo H1** (el título de la página).
-- Dentro del contenido usa **H2 para secciones** y **H3 para subsecciones**.
-- Mantén frases cortas y listas para pasos o requerimientos.
-
----
-
-## 2) Encabezados (títulos)
+## 1) Encabezados (títulos)
 
 Código:
 
@@ -34,11 +26,12 @@ Ejemplo (cómo se ve):
 **Sección (H2)**  
 **Subsección (H3)**
 
-Recomendación: usa **H2** como secciones principales dentro de páginas; evita múltiples H1.
-
+- En cada página usa **un solo H1** (el título de la página).
+- Dentro del contenido usa **H2 para secciones** y **H3 para subsecciones**.
+- Mantén frases cortas y listas para pasos o requerimientos.
 ---
 
-## 3) Negritas, cursivas y texto en línea
+## 2) Negritas, cursivas y texto en línea
 
 Código:
 
@@ -55,7 +48,7 @@ Ejemplos (cómo se ve):
 
 ---
 
-## 4) Listas (viñetas, numeradas y tareas)
+## 3) Listas (viñetas, numeradas y tareas)
 
 ### Viñetas
 
@@ -106,7 +99,7 @@ Ejemplo (cómo se ve):
 
 ---
 
-## 5) Enlaces (a páginas, secciones, archivos y web)
+## 4) Enlaces (a páginas, secciones, archivos y web)
 
 ### Enlace a otra página del sitio
 
@@ -162,7 +155,7 @@ Ejemplo (cómo se ve):
 
 ---
 
-## 6) Imágenes (y buenas prácticas de rutas)
+## 5) Imágenes (y buenas prácticas de rutas)
 
 Guarda imágenes en `assets/img/`.
 
@@ -185,7 +178,7 @@ Buenas prácticas:
 
 ---
 
-## 7) Video (opciones recomendadas)
+## 6) Video (opciones recomendadas)
 
 ### Opción A: Enlace
 
@@ -247,7 +240,7 @@ Recomendaciones:
 
 ---
 
-## 8) Código (bloques con resaltado y fragmentos)
+## 7) Código (bloques con resaltado y fragmentos)
 
 ### Bloque con resaltado
 
@@ -300,7 +293,7 @@ Usa `git status` para ver cambios.
 
 ---
 
-## 9) Tablas
+## 8) Tablas
 
 Código:
 
@@ -324,7 +317,7 @@ Buenas prácticas:
 
 ---
 
-## 10) Citas y separadores
+## 9) Citas y separadores
 
 ### Cita (blockquote)
 
@@ -353,7 +346,7 @@ Ejemplo (cómo se ve):
 
 ---
 
-## 11) Bloques colapsables 
+## 10) Bloques colapsables 
 
 Puedes usar HTML nativo.
 
@@ -377,7 +370,7 @@ Ejemplo (cómo se ve):
 
 ---
 
-## 12) Plantilla rápida para una página del curso
+## 11) Plantilla rápida para una página del curso
 
 Copia y adapta.
 
