@@ -184,4 +184,4 @@ GitHub te mostrará tu URL con este formato:
 ---
 
 ## Siguiente sección
-[Estructura del repositorio](02-estructura-del-repo.md)
+[Estructura del repositorio ](02-estructura-del-repo.md)
