@@ -36,6 +36,15 @@ Inserta un iframe dentro de un contenedor responsivo.
   </iframe>
 </div>
 ```
+## Video (YouTube/Vimeo)
+
+Inserta un video mp4.
+```html
+<video controls width="640">
+  <source src="{{ '/assets/img/cuadrado.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+```
 
 > Nota: El CSS para `.responsive-embed` ya viene en `assets/css/custom.css`.
 
