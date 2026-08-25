@@ -7,7 +7,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-# IMPORTANTESssssssssssss:
+# IMPORTANTES:
 # - Para GitHub Pages (Project Page), edita:
 #     url: "https://TU_USUARIO.github.io"
 #     baseurl: "/NOMBRE_DEL_REPO"
