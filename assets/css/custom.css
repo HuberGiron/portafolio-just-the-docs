@@ -9,10 +9,12 @@ a { text-decoration-color: rgba(224, 0, 52, 0.4); }
 a:hover { color: #b00028; text-decoration-color: rgba(176, 0, 40, 0.6); }
 a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
 
-/* === SIDEBAR ROJO COMPLETO === */
+/* === SIDEBAR CON DEGRADADO (ESTILO SEED STUDIO) === */
 .side-bar,
 .side-bar .site-nav,
-.side-bar .nav-list { background-color: #E00034 !important; }
+.side-bar .nav-list {
+  background: linear-gradient(180deg, #719A24 0%, #354D12 50%, #151D0B 100%) !important;
+}
 
 /* Título del sitio en el sidebar */
 .side-bar .site-title {
