@@ -4,7 +4,10 @@ title: Inicio
 nav_order: 1
 ---
 
-# Plantilla de documentación con Just the Docs
+# reBot Arm A601
+
+![reBot](rebot.png)
+
 
 Este repositorio está diseñado para entender como utilizar la plantilla de repositorio que utiliza **"Just the docs"** de Jekyll y el lenguaje **"Markdown"**:
 
