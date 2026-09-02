@@ -6,7 +6,7 @@ nav_order: 1
 
 # reBot Arm A601
 
-![reBot](rebot.png)
+![reBot](rebot.jpg)
 
 
 Este repositorio está diseñado para entender como utilizar la plantilla de repositorio que utiliza **"Just the docs"** de Jekyll y el lenguaje **"Markdown"**:
